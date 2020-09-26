@@ -1,0 +1,84 @@
+{
+	"BUILD_DIR" : "/home/sk/workspas/AuboDriver/cmake-build-debug/src/02-movej/movej_autogen",
+	"CMAKE_BINARY_DIR" : "/home/sk/workspas/AuboDriver/cmake-build-debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/sk/workspas/AuboDriver/cmake-build-debug/src/02-movej",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/sk/workspas/AuboDriver/src/02-movej",
+	"CMAKE_EXECUTABLE" : "/home/sk/CLion-2020.1.1/clion-2020.1.1/bin/cmake/linux/bin/cmake",
+	"CMAKE_SOURCE_DIR" : "/home/sk/workspas/AuboDriver",
+	"HEADERS" : 
+	[
+		[
+			"/home/sk/workspas/AuboDriver/src/02-movej/MainWindow.h",
+			"MU",
+			"EWIEGA46WW/moc_MainWindow.cpp"
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/home/sk/workspas/AuboDriver/cmake-build-debug/src/02-movej/movej_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/sk/workspas/AuboDriver/cmake-build-debug/src/02-movej/movej_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : 
+	[
+		"QT_CORE_LIB",
+		"QT_GUI_LIB",
+		"QT_NETWORK_LIB",
+		"QT_OPENGL_LIB",
+		"QT_WIDGETS_LIB"
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"/home/sk/workspas/AuboDriver/cmake-build-debug/src/02-movej",
+		"/home/sk/workspas/AuboDriver/src/02-movej",
+		"/home/sk/workspas/AuboDriver/3rdparty/aubo_dependents/libconfig/linux_x64/inc",
+		"/home/sk/workspas/AuboDriver/3rdparty/aubo_dependents/log4cplus/linux_x64/inc",
+		"/home/sk/workspas/AuboDriver/3rdparty/aubo_dependents/protobuf/linux_x64/google/protobuf/inc",
+		"/home/sk/workspas/AuboDriver/3rdparty/aubo_dependents/robotController/Header",
+		"/home/sk/workspas/AuboDriver/3rdparty/aubo_dependents/robotSDK/inc",
+		"/home/sk/workspas/AuboDriver/src/utils",
+		"/home/sk/workspas/AuboDriver/3rdparty/qt/include",
+		"/home/sk/workspas/AuboDriver/3rdparty/qt/include/QtCore",
+		"/home/sk/workspas/AuboDriver/3rdparty/qt/mkspecs/linux-g++",
+		"/home/sk/workspas/AuboDriver/3rdparty/qt/include/QtGui",
+		"/home/sk/workspas/AuboDriver/3rdparty/qt/include/QtWidgets",
+		"/home/sk/workspas/AuboDriver/3rdparty/qt/include/QtNetwork",
+		"/home/sk/workspas/AuboDriver/3rdparty/qt/include/QtOpenGL",
+		"/usr/include",
+		"/usr/include/c++/7",
+		"/usr/include/x86_64-linux-gnu/c++/7",
+		"/usr/include/c++/7/backward",
+		"/usr/lib/gcc/x86_64-linux-gnu/7/include",
+		"/usr/local/include",
+		"/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed",
+		"/usr/include/x86_64-linux-gnu"
+	],
+	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE" ],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : true,
+	"MOC_PREDEFS_CMD" : [],
+	"MOC_PREDEFS_FILE" : "",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 6,
+	"PARSE_CACHE_FILE" : "/home/sk/workspas/AuboDriver/cmake-build-debug/src/02-movej/CMakeFiles/movej_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "/home/sk/workspas/AuboDriver/3rdparty/qt/bin/moc",
+	"QT_UIC_EXECUTABLE" : "/home/sk/workspas/AuboDriver/3rdparty/qt/bin/uic",
+	"QT_VERSION_MAJOR" : 5,
+	"SETTINGS_FILE" : "/home/sk/workspas/AuboDriver/cmake-build-debug/src/02-movej/CMakeFiles/movej_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[ "/home/sk/workspas/AuboDriver/src/02-movej/MainWindow.cpp", "MU" ],
+		[ "/home/sk/workspas/AuboDriver/src/02-movej/main.cpp", "MU" ]
+	],
+	"UIC_OPTIONS" : [],
+	"UIC_SEARCH_PATHS" : [],
+	"UIC_SKIP" : [],
+	"UIC_UI_FILES" : [],
+	"VERBOSITY" : 0
+}

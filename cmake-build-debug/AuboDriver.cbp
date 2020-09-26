@@ -1,0 +1,943 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="AuboDriver"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake\;CMake Files\3rdparty\;CMake Files\3rdparty\qt\;CMake Files\3rdparty\qt\lib\;CMake Files\3rdparty\qt\lib\cmake\;CMake Files\3rdparty\qt\lib\cmake\Qt5Core\;CMake Files\3rdparty\qt\lib\cmake\Qt5Gui\;CMake Files\3rdparty\qt\lib\cmake\Qt5Widgets\;CMake Files\3rdparty\qt\lib\cmake\Qt5OpenGL\;CMake Files\3rdparty\qt\lib\cmake\Qt5Network\;CMake Files\src\;CMake Files\src\utils\;CMake Files\src\01-connect\;CMake Files\src\02-movej\;CMake Files\src\02-movel\;CMake Files\src\03-FKIK\;CMake Files\src\04-io\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/sk/workspas/AuboDriver/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/AuboDriver/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/AuboDriver/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/AuboDriver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/AuboDriver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/sk/workspas/AuboDriver/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/AuboDriver/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/AuboDriver/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/AuboDriver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/AuboDriver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/sk/workspas/AuboDriver/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/AuboDriver/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/AuboDriver/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/AuboDriver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/AuboDriver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="AuboDriver">
+				<Option output="/home/sk/workspas/AuboDriver/build/bin/AuboDriver" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sk/workspas/AuboDriver/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/sk/workspas/AuboDriver/cmake-build-debug"/>
+					<Add directory="/home/sk/workspas/AuboDriver"/>
+					<Add directory="/home/sk/workspas/AuboDriver/cmake-build-debug/AuboDriver_autogen/include"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/aubo_dependents/libconfig/linux_x64/inc"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/aubo_dependents/log4cplus/linux_x64/inc"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/aubo_dependents/protobuf/linux_x64/google/protobuf/inc"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/aubo_dependents/robotController/Header"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/aubo_dependents/robotSDK/inc"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/qt/include"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/qt/include/QtCore"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/qt/./mkspecs/linux-g++"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/qt/include/QtGui"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/qt/include/QtWidgets"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/qt/include/QtNetwork"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/AuboDriver/cmake-build-debug/Makefile&quot;  VERBOSE=1 AuboDriver"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/AuboDriver/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/AuboDriver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/AuboDriver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="AuboDriver/fast">
+				<Option output="/home/sk/workspas/AuboDriver/build/bin/AuboDriver" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sk/workspas/AuboDriver/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/sk/workspas/AuboDriver/cmake-build-debug"/>
+					<Add directory="/home/sk/workspas/AuboDriver"/>
+					<Add directory="/home/sk/workspas/AuboDriver/cmake-build-debug/AuboDriver_autogen/include"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/aubo_dependents/libconfig/linux_x64/inc"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/aubo_dependents/log4cplus/linux_x64/inc"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/aubo_dependents/protobuf/linux_x64/google/protobuf/inc"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/aubo_dependents/robotController/Header"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/aubo_dependents/robotSDK/inc"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/qt/include"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/qt/include/QtCore"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/qt/./mkspecs/linux-g++"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/qt/include/QtGui"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/qt/include/QtWidgets"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/qt/include/QtNetwork"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/AuboDriver/cmake-build-debug/Makefile&quot;  VERBOSE=1 AuboDriver/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/AuboDriver/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/AuboDriver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/AuboDriver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="AuboDriver_autogen">
+				<Option working_dir="/home/sk/workspas/AuboDriver/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/AuboDriver/cmake-build-debug/Makefile&quot;  VERBOSE=1 AuboDriver_autogen"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/AuboDriver/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/AuboDriver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/AuboDriver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="aubo">
+				<Option output="/home/sk/workspas/AuboDriver/build/lib/libaubo.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sk/workspas/AuboDriver/cmake-build-debug/src/utils"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/sk/workspas/AuboDriver/cmake-build-debug/src/utils"/>
+					<Add directory="/home/sk/workspas/AuboDriver/src/utils"/>
+					<Add directory="/home/sk/workspas/AuboDriver/cmake-build-debug/src/utils/aubo_autogen/include"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/aubo_dependents/libconfig/linux_x64/inc"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/aubo_dependents/log4cplus/linux_x64/inc"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/aubo_dependents/protobuf/linux_x64/google/protobuf/inc"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/aubo_dependents/robotController/Header"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/aubo_dependents/robotSDK/inc"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/qt/include"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/qt/include/QtCore"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/qt/./mkspecs/linux-g++"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/qt/include/QtGui"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/qt/include/QtWidgets"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/qt/include/QtNetwork"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/AuboDriver/cmake-build-debug/src/utils/Makefile&quot;  VERBOSE=1 aubo"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/AuboDriver/cmake-build-debug/src/utils/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/AuboDriver/cmake-build-debug/src/utils/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/AuboDriver/cmake-build-debug/src/utils/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="aubo/fast">
+				<Option output="/home/sk/workspas/AuboDriver/build/lib/libaubo.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sk/workspas/AuboDriver/cmake-build-debug/src/utils"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/sk/workspas/AuboDriver/cmake-build-debug/src/utils"/>
+					<Add directory="/home/sk/workspas/AuboDriver/src/utils"/>
+					<Add directory="/home/sk/workspas/AuboDriver/cmake-build-debug/src/utils/aubo_autogen/include"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/aubo_dependents/libconfig/linux_x64/inc"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/aubo_dependents/log4cplus/linux_x64/inc"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/aubo_dependents/protobuf/linux_x64/google/protobuf/inc"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/aubo_dependents/robotController/Header"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/aubo_dependents/robotSDK/inc"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/qt/include"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/qt/include/QtCore"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/qt/./mkspecs/linux-g++"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/qt/include/QtGui"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/qt/include/QtWidgets"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/qt/include/QtNetwork"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/AuboDriver/cmake-build-debug/src/utils/Makefile&quot;  VERBOSE=1 aubo/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/AuboDriver/cmake-build-debug/src/utils/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/AuboDriver/cmake-build-debug/src/utils/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/AuboDriver/cmake-build-debug/src/utils/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="aubo_autogen">
+				<Option working_dir="/home/sk/workspas/AuboDriver/cmake-build-debug/src/utils"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/AuboDriver/cmake-build-debug/src/utils/Makefile&quot;  VERBOSE=1 aubo_autogen"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/AuboDriver/cmake-build-debug/src/utils/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/AuboDriver/cmake-build-debug/src/utils/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/AuboDriver/cmake-build-debug/src/utils/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="connect">
+				<Option output="/home/sk/workspas/AuboDriver/build/bin/connect" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sk/workspas/AuboDriver/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_OPENGL_LIB"/>
+					<Add option="-DQT_NETWORK_LIB"/>
+					<Add directory="/home/sk/workspas/AuboDriver/cmake-build-debug/src/01-connect"/>
+					<Add directory="/home/sk/workspas/AuboDriver/src/01-connect"/>
+					<Add directory="/home/sk/workspas/AuboDriver/cmake-build-debug/src/01-connect/connect_autogen/include"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/aubo_dependents/libconfig/linux_x64/inc"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/aubo_dependents/log4cplus/linux_x64/inc"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/aubo_dependents/protobuf/linux_x64/google/protobuf/inc"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/aubo_dependents/robotController/Header"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/aubo_dependents/robotSDK/inc"/>
+					<Add directory="/home/sk/workspas/AuboDriver/src/01-connect/../utils"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/qt/include"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/qt/include/QtCore"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/qt/./mkspecs/linux-g++"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/qt/include/QtGui"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/qt/include/QtWidgets"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/qt/include/QtNetwork"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/qt/include/QtOpenGL"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/AuboDriver/cmake-build-debug/src/01-connect/Makefile&quot;  VERBOSE=1 connect"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/AuboDriver/cmake-build-debug/src/01-connect/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/AuboDriver/cmake-build-debug/src/01-connect/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/AuboDriver/cmake-build-debug/src/01-connect/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="connect/fast">
+				<Option output="/home/sk/workspas/AuboDriver/build/bin/connect" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sk/workspas/AuboDriver/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_OPENGL_LIB"/>
+					<Add option="-DQT_NETWORK_LIB"/>
+					<Add directory="/home/sk/workspas/AuboDriver/cmake-build-debug/src/01-connect"/>
+					<Add directory="/home/sk/workspas/AuboDriver/src/01-connect"/>
+					<Add directory="/home/sk/workspas/AuboDriver/cmake-build-debug/src/01-connect/connect_autogen/include"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/aubo_dependents/libconfig/linux_x64/inc"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/aubo_dependents/log4cplus/linux_x64/inc"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/aubo_dependents/protobuf/linux_x64/google/protobuf/inc"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/aubo_dependents/robotController/Header"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/aubo_dependents/robotSDK/inc"/>
+					<Add directory="/home/sk/workspas/AuboDriver/src/01-connect/../utils"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/qt/include"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/qt/include/QtCore"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/qt/./mkspecs/linux-g++"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/qt/include/QtGui"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/qt/include/QtWidgets"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/qt/include/QtNetwork"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/qt/include/QtOpenGL"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/AuboDriver/cmake-build-debug/src/01-connect/Makefile&quot;  VERBOSE=1 connect/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/AuboDriver/cmake-build-debug/src/01-connect/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/AuboDriver/cmake-build-debug/src/01-connect/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/AuboDriver/cmake-build-debug/src/01-connect/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="connect_autogen">
+				<Option working_dir="/home/sk/workspas/AuboDriver/cmake-build-debug/src/01-connect"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/AuboDriver/cmake-build-debug/src/01-connect/Makefile&quot;  VERBOSE=1 connect_autogen"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/AuboDriver/cmake-build-debug/src/01-connect/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/AuboDriver/cmake-build-debug/src/01-connect/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/AuboDriver/cmake-build-debug/src/01-connect/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="movej">
+				<Option output="/home/sk/workspas/AuboDriver/build/bin/movej" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sk/workspas/AuboDriver/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_OPENGL_LIB"/>
+					<Add option="-DQT_NETWORK_LIB"/>
+					<Add directory="/home/sk/workspas/AuboDriver/cmake-build-debug/src/02-movej"/>
+					<Add directory="/home/sk/workspas/AuboDriver/src/02-movej"/>
+					<Add directory="/home/sk/workspas/AuboDriver/cmake-build-debug/src/02-movej/movej_autogen/include"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/aubo_dependents/libconfig/linux_x64/inc"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/aubo_dependents/log4cplus/linux_x64/inc"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/aubo_dependents/protobuf/linux_x64/google/protobuf/inc"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/aubo_dependents/robotController/Header"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/aubo_dependents/robotSDK/inc"/>
+					<Add directory="/home/sk/workspas/AuboDriver/src/02-movej/../utils"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/qt/include"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/qt/include/QtCore"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/qt/./mkspecs/linux-g++"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/qt/include/QtGui"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/qt/include/QtWidgets"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/qt/include/QtNetwork"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/qt/include/QtOpenGL"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/AuboDriver/cmake-build-debug/src/02-movej/Makefile&quot;  VERBOSE=1 movej"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/AuboDriver/cmake-build-debug/src/02-movej/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/AuboDriver/cmake-build-debug/src/02-movej/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/AuboDriver/cmake-build-debug/src/02-movej/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="movej/fast">
+				<Option output="/home/sk/workspas/AuboDriver/build/bin/movej" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sk/workspas/AuboDriver/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_OPENGL_LIB"/>
+					<Add option="-DQT_NETWORK_LIB"/>
+					<Add directory="/home/sk/workspas/AuboDriver/cmake-build-debug/src/02-movej"/>
+					<Add directory="/home/sk/workspas/AuboDriver/src/02-movej"/>
+					<Add directory="/home/sk/workspas/AuboDriver/cmake-build-debug/src/02-movej/movej_autogen/include"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/aubo_dependents/libconfig/linux_x64/inc"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/aubo_dependents/log4cplus/linux_x64/inc"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/aubo_dependents/protobuf/linux_x64/google/protobuf/inc"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/aubo_dependents/robotController/Header"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/aubo_dependents/robotSDK/inc"/>
+					<Add directory="/home/sk/workspas/AuboDriver/src/02-movej/../utils"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/qt/include"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/qt/include/QtCore"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/qt/./mkspecs/linux-g++"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/qt/include/QtGui"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/qt/include/QtWidgets"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/qt/include/QtNetwork"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/qt/include/QtOpenGL"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/AuboDriver/cmake-build-debug/src/02-movej/Makefile&quot;  VERBOSE=1 movej/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/AuboDriver/cmake-build-debug/src/02-movej/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/AuboDriver/cmake-build-debug/src/02-movej/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/AuboDriver/cmake-build-debug/src/02-movej/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="movej_autogen">
+				<Option working_dir="/home/sk/workspas/AuboDriver/cmake-build-debug/src/02-movej"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/AuboDriver/cmake-build-debug/src/02-movej/Makefile&quot;  VERBOSE=1 movej_autogen"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/AuboDriver/cmake-build-debug/src/02-movej/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/AuboDriver/cmake-build-debug/src/02-movej/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/AuboDriver/cmake-build-debug/src/02-movej/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="movel">
+				<Option output="/home/sk/workspas/AuboDriver/build/bin/movel" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sk/workspas/AuboDriver/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_OPENGL_LIB"/>
+					<Add option="-DQT_NETWORK_LIB"/>
+					<Add directory="/home/sk/workspas/AuboDriver/cmake-build-debug/src/02-movel"/>
+					<Add directory="/home/sk/workspas/AuboDriver/src/02-movel"/>
+					<Add directory="/home/sk/workspas/AuboDriver/cmake-build-debug/src/02-movel/movel_autogen/include"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/aubo_dependents/libconfig/linux_x64/inc"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/aubo_dependents/log4cplus/linux_x64/inc"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/aubo_dependents/protobuf/linux_x64/google/protobuf/inc"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/aubo_dependents/robotController/Header"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/aubo_dependents/robotSDK/inc"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/qt/include"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/qt/include/QtCore"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/qt/./mkspecs/linux-g++"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/qt/include/QtGui"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/qt/include/QtWidgets"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/qt/include/QtNetwork"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/qt/include/QtOpenGL"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/AuboDriver/cmake-build-debug/src/02-movel/Makefile&quot;  VERBOSE=1 movel"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/AuboDriver/cmake-build-debug/src/02-movel/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/AuboDriver/cmake-build-debug/src/02-movel/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/AuboDriver/cmake-build-debug/src/02-movel/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="movel/fast">
+				<Option output="/home/sk/workspas/AuboDriver/build/bin/movel" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sk/workspas/AuboDriver/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_OPENGL_LIB"/>
+					<Add option="-DQT_NETWORK_LIB"/>
+					<Add directory="/home/sk/workspas/AuboDriver/cmake-build-debug/src/02-movel"/>
+					<Add directory="/home/sk/workspas/AuboDriver/src/02-movel"/>
+					<Add directory="/home/sk/workspas/AuboDriver/cmake-build-debug/src/02-movel/movel_autogen/include"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/aubo_dependents/libconfig/linux_x64/inc"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/aubo_dependents/log4cplus/linux_x64/inc"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/aubo_dependents/protobuf/linux_x64/google/protobuf/inc"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/aubo_dependents/robotController/Header"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/aubo_dependents/robotSDK/inc"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/qt/include"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/qt/include/QtCore"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/qt/./mkspecs/linux-g++"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/qt/include/QtGui"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/qt/include/QtWidgets"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/qt/include/QtNetwork"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/qt/include/QtOpenGL"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/AuboDriver/cmake-build-debug/src/02-movel/Makefile&quot;  VERBOSE=1 movel/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/AuboDriver/cmake-build-debug/src/02-movel/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/AuboDriver/cmake-build-debug/src/02-movel/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/AuboDriver/cmake-build-debug/src/02-movel/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="movel_autogen">
+				<Option working_dir="/home/sk/workspas/AuboDriver/cmake-build-debug/src/02-movel"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/AuboDriver/cmake-build-debug/src/02-movel/Makefile&quot;  VERBOSE=1 movel_autogen"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/AuboDriver/cmake-build-debug/src/02-movel/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/AuboDriver/cmake-build-debug/src/02-movel/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/AuboDriver/cmake-build-debug/src/02-movel/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="fkik">
+				<Option output="/home/sk/workspas/AuboDriver/build/bin/fkik" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sk/workspas/AuboDriver/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_OPENGL_LIB"/>
+					<Add option="-DQT_NETWORK_LIB"/>
+					<Add directory="/home/sk/workspas/AuboDriver/cmake-build-debug/src/03-FKIK"/>
+					<Add directory="/home/sk/workspas/AuboDriver/src/03-FKIK"/>
+					<Add directory="/home/sk/workspas/AuboDriver/cmake-build-debug/src/03-FKIK/fkik_autogen/include"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/aubo_dependents/libconfig/linux_x64/inc"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/aubo_dependents/log4cplus/linux_x64/inc"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/aubo_dependents/protobuf/linux_x64/google/protobuf/inc"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/aubo_dependents/robotController/Header"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/aubo_dependents/robotSDK/inc"/>
+					<Add directory="/home/sk/workspas/AuboDriver/src/03-FKIK/../utils"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/qt/include"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/qt/include/QtCore"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/qt/./mkspecs/linux-g++"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/qt/include/QtGui"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/qt/include/QtWidgets"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/qt/include/QtNetwork"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/qt/include/QtOpenGL"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/AuboDriver/cmake-build-debug/src/03-FKIK/Makefile&quot;  VERBOSE=1 fkik"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/AuboDriver/cmake-build-debug/src/03-FKIK/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/AuboDriver/cmake-build-debug/src/03-FKIK/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/AuboDriver/cmake-build-debug/src/03-FKIK/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="fkik/fast">
+				<Option output="/home/sk/workspas/AuboDriver/build/bin/fkik" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sk/workspas/AuboDriver/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_OPENGL_LIB"/>
+					<Add option="-DQT_NETWORK_LIB"/>
+					<Add directory="/home/sk/workspas/AuboDriver/cmake-build-debug/src/03-FKIK"/>
+					<Add directory="/home/sk/workspas/AuboDriver/src/03-FKIK"/>
+					<Add directory="/home/sk/workspas/AuboDriver/cmake-build-debug/src/03-FKIK/fkik_autogen/include"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/aubo_dependents/libconfig/linux_x64/inc"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/aubo_dependents/log4cplus/linux_x64/inc"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/aubo_dependents/protobuf/linux_x64/google/protobuf/inc"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/aubo_dependents/robotController/Header"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/aubo_dependents/robotSDK/inc"/>
+					<Add directory="/home/sk/workspas/AuboDriver/src/03-FKIK/../utils"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/qt/include"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/qt/include/QtCore"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/qt/./mkspecs/linux-g++"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/qt/include/QtGui"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/qt/include/QtWidgets"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/qt/include/QtNetwork"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/qt/include/QtOpenGL"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/AuboDriver/cmake-build-debug/src/03-FKIK/Makefile&quot;  VERBOSE=1 fkik/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/AuboDriver/cmake-build-debug/src/03-FKIK/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/AuboDriver/cmake-build-debug/src/03-FKIK/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/AuboDriver/cmake-build-debug/src/03-FKIK/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="fkik_autogen">
+				<Option working_dir="/home/sk/workspas/AuboDriver/cmake-build-debug/src/03-FKIK"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/AuboDriver/cmake-build-debug/src/03-FKIK/Makefile&quot;  VERBOSE=1 fkik_autogen"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/AuboDriver/cmake-build-debug/src/03-FKIK/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/AuboDriver/cmake-build-debug/src/03-FKIK/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/AuboDriver/cmake-build-debug/src/03-FKIK/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="io">
+				<Option output="/home/sk/workspas/AuboDriver/build/bin/io" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sk/workspas/AuboDriver/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_OPENGL_LIB"/>
+					<Add option="-DQT_NETWORK_LIB"/>
+					<Add directory="/home/sk/workspas/AuboDriver/cmake-build-debug/src/04-io"/>
+					<Add directory="/home/sk/workspas/AuboDriver/src/04-io"/>
+					<Add directory="/home/sk/workspas/AuboDriver/cmake-build-debug/src/04-io/io_autogen/include"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/aubo_dependents/libconfig/linux_x64/inc"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/aubo_dependents/log4cplus/linux_x64/inc"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/aubo_dependents/protobuf/linux_x64/google/protobuf/inc"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/aubo_dependents/robotController/Header"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/aubo_dependents/robotSDK/inc"/>
+					<Add directory="/home/sk/workspas/AuboDriver/src/04-io/../utils"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/qt/include"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/qt/include/QtCore"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/qt/./mkspecs/linux-g++"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/qt/include/QtGui"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/qt/include/QtWidgets"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/qt/include/QtNetwork"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/qt/include/QtOpenGL"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/AuboDriver/cmake-build-debug/src/04-io/Makefile&quot;  VERBOSE=1 io"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/AuboDriver/cmake-build-debug/src/04-io/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/AuboDriver/cmake-build-debug/src/04-io/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/AuboDriver/cmake-build-debug/src/04-io/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="io/fast">
+				<Option output="/home/sk/workspas/AuboDriver/build/bin/io" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sk/workspas/AuboDriver/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_OPENGL_LIB"/>
+					<Add option="-DQT_NETWORK_LIB"/>
+					<Add directory="/home/sk/workspas/AuboDriver/cmake-build-debug/src/04-io"/>
+					<Add directory="/home/sk/workspas/AuboDriver/src/04-io"/>
+					<Add directory="/home/sk/workspas/AuboDriver/cmake-build-debug/src/04-io/io_autogen/include"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/aubo_dependents/libconfig/linux_x64/inc"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/aubo_dependents/log4cplus/linux_x64/inc"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/aubo_dependents/protobuf/linux_x64/google/protobuf/inc"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/aubo_dependents/robotController/Header"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/aubo_dependents/robotSDK/inc"/>
+					<Add directory="/home/sk/workspas/AuboDriver/src/04-io/../utils"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/qt/include"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/qt/include/QtCore"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/qt/./mkspecs/linux-g++"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/qt/include/QtGui"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/qt/include/QtWidgets"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/qt/include/QtNetwork"/>
+					<Add directory="/home/sk/workspas/AuboDriver/3rdparty/qt/include/QtOpenGL"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/AuboDriver/cmake-build-debug/src/04-io/Makefile&quot;  VERBOSE=1 io/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/AuboDriver/cmake-build-debug/src/04-io/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/AuboDriver/cmake-build-debug/src/04-io/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/AuboDriver/cmake-build-debug/src/04-io/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="io_autogen">
+				<Option working_dir="/home/sk/workspas/AuboDriver/cmake-build-debug/src/04-io"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/AuboDriver/cmake-build-debug/src/04-io/Makefile&quot;  VERBOSE=1 io_autogen"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/AuboDriver/cmake-build-debug/src/04-io/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/AuboDriver/cmake-build-debug/src/04-io/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/AuboDriver/cmake-build-debug/src/04-io/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/sk/workspas/AuboDriver/cmake-build-debug/AuboDriver_autogen/mocs_compilation.cpp">
+			<Option target="AuboDriver"/>
+		</Unit>
+		<Unit filename="/home/sk/workspas/AuboDriver/cmake-build-debug/src/01-connect/connect_autogen/mocs_compilation.cpp">
+			<Option target="connect"/>
+		</Unit>
+		<Unit filename="/home/sk/workspas/AuboDriver/cmake-build-debug/src/02-movej/movej_autogen/mocs_compilation.cpp">
+			<Option target="movej"/>
+		</Unit>
+		<Unit filename="/home/sk/workspas/AuboDriver/cmake-build-debug/src/02-movel/movel_autogen/mocs_compilation.cpp">
+			<Option target="movel"/>
+		</Unit>
+		<Unit filename="/home/sk/workspas/AuboDriver/cmake-build-debug/src/03-FKIK/fkik_autogen/mocs_compilation.cpp">
+			<Option target="fkik"/>
+		</Unit>
+		<Unit filename="/home/sk/workspas/AuboDriver/cmake-build-debug/src/04-io/io_autogen/mocs_compilation.cpp">
+			<Option target="io"/>
+		</Unit>
+		<Unit filename="/home/sk/workspas/AuboDriver/cmake-build-debug/src/utils/aubo_autogen/mocs_compilation.cpp">
+			<Option target="aubo"/>
+		</Unit>
+		<Unit filename="/home/sk/workspas/AuboDriver/main.cpp">
+			<Option target="AuboDriver"/>
+		</Unit>
+		<Unit filename="/home/sk/workspas/AuboDriver/src/01-connect/MainWindow.cpp">
+			<Option target="connect"/>
+		</Unit>
+		<Unit filename="/home/sk/workspas/AuboDriver/src/01-connect/MainWindow.h">
+			<Option target="connect"/>
+		</Unit>
+		<Unit filename="/home/sk/workspas/AuboDriver/src/01-connect/main.cpp">
+			<Option target="connect"/>
+		</Unit>
+		<Unit filename="/home/sk/workspas/AuboDriver/src/02-movej/MainWindow.cpp">
+			<Option target="movej"/>
+		</Unit>
+		<Unit filename="/home/sk/workspas/AuboDriver/src/02-movej/MainWindow.h">
+			<Option target="movej"/>
+		</Unit>
+		<Unit filename="/home/sk/workspas/AuboDriver/src/02-movej/main.cpp">
+			<Option target="movej"/>
+		</Unit>
+		<Unit filename="/home/sk/workspas/AuboDriver/src/02-movel/MainWindow.cpp">
+			<Option target="movel"/>
+		</Unit>
+		<Unit filename="/home/sk/workspas/AuboDriver/src/02-movel/MainWindow.h">
+			<Option target="movel"/>
+		</Unit>
+		<Unit filename="/home/sk/workspas/AuboDriver/src/02-movel/main.cpp">
+			<Option target="movel"/>
+		</Unit>
+		<Unit filename="/home/sk/workspas/AuboDriver/src/03-FKIK/MainWindow.cpp">
+			<Option target="fkik"/>
+		</Unit>
+		<Unit filename="/home/sk/workspas/AuboDriver/src/03-FKIK/MainWindow.h">
+			<Option target="fkik"/>
+		</Unit>
+		<Unit filename="/home/sk/workspas/AuboDriver/src/03-FKIK/main.cpp">
+			<Option target="fkik"/>
+		</Unit>
+		<Unit filename="/home/sk/workspas/AuboDriver/src/04-io/MainWindow.cpp">
+			<Option target="io"/>
+		</Unit>
+		<Unit filename="/home/sk/workspas/AuboDriver/src/04-io/MainWindow.h">
+			<Option target="io"/>
+		</Unit>
+		<Unit filename="/home/sk/workspas/AuboDriver/src/04-io/main.cpp">
+			<Option target="io"/>
+		</Unit>
+		<Unit filename="/home/sk/workspas/AuboDriver/src/utils/Robot.cpp">
+			<Option target="aubo"/>
+			<Option target="movel"/>
+		</Unit>
+		<Unit filename="/home/sk/workspas/AuboDriver/src/utils/Robot.h">
+			<Option target="aubo"/>
+		</Unit>
+		<Unit filename="/home/sk/workspas/AuboDriver/src/utils/util.cpp">
+			<Option target="aubo"/>
+			<Option target="movel"/>
+		</Unit>
+		<Unit filename="/home/sk/workspas/AuboDriver/src/utils/util.h">
+			<Option target="aubo"/>
+		</Unit>
+		<Unit filename="/home/sk/workspas/AuboDriver/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/sk/workspas/AuboDriver/cmake/FindAuBo.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home/sk/workspas/AuboDriver/3rdparty/qt/lib/cmake/Qt5Core/Qt5CoreConfig.cmake">
+			<Option virtualFolder="CMake Files\3rdparty\qt\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/sk/workspas/AuboDriver/3rdparty/qt/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\3rdparty\qt\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/sk/workspas/AuboDriver/3rdparty/qt/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
+			<Option virtualFolder="CMake Files\3rdparty\qt\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/sk/workspas/AuboDriver/3rdparty/qt/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\3rdparty\qt\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/sk/workspas/AuboDriver/3rdparty/qt/lib/cmake/Qt5Core/Qt5CoreMacros.cmake">
+			<Option virtualFolder="CMake Files\3rdparty\qt\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/sk/workspas/AuboDriver/3rdparty/qt/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake">
+			<Option virtualFolder="CMake Files\3rdparty\qt\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/sk/workspas/AuboDriver/3rdparty/qt/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\3rdparty\qt\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/sk/workspas/AuboDriver/3rdparty/qt/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\3rdparty\qt\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/sk/workspas/AuboDriver/3rdparty/qt/lib/cmake/Qt5Gui/Qt5Gui_QComposePlatformInputContextPlugin.cmake">
+			<Option virtualFolder="CMake Files\3rdparty\qt\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/sk/workspas/AuboDriver/3rdparty/qt/lib/cmake/Qt5Gui/Qt5Gui_QDDSPlugin.cmake">
+			<Option virtualFolder="CMake Files\3rdparty\qt\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/sk/workspas/AuboDriver/3rdparty/qt/lib/cmake/Qt5Gui/Qt5Gui_QEglFSIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\3rdparty\qt\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/sk/workspas/AuboDriver/3rdparty/qt/lib/cmake/Qt5Gui/Qt5Gui_QEglFSX11IntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\3rdparty\qt\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/sk/workspas/AuboDriver/3rdparty/qt/lib/cmake/Qt5Gui/Qt5Gui_QEvdevKeyboardPlugin.cmake">
+			<Option virtualFolder="CMake Files\3rdparty\qt\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/sk/workspas/AuboDriver/3rdparty/qt/lib/cmake/Qt5Gui/Qt5Gui_QEvdevMousePlugin.cmake">
+			<Option virtualFolder="CMake Files\3rdparty\qt\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/sk/workspas/AuboDriver/3rdparty/qt/lib/cmake/Qt5Gui/Qt5Gui_QEvdevTabletPlugin.cmake">
+			<Option virtualFolder="CMake Files\3rdparty\qt\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/sk/workspas/AuboDriver/3rdparty/qt/lib/cmake/Qt5Gui/Qt5Gui_QEvdevTouchScreenPlugin.cmake">
+			<Option virtualFolder="CMake Files\3rdparty\qt\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/sk/workspas/AuboDriver/3rdparty/qt/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake">
+			<Option virtualFolder="CMake Files\3rdparty\qt\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/sk/workspas/AuboDriver/3rdparty/qt/lib/cmake/Qt5Gui/Qt5Gui_QICNSPlugin.cmake">
+			<Option virtualFolder="CMake Files\3rdparty\qt\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/sk/workspas/AuboDriver/3rdparty/qt/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake">
+			<Option virtualFolder="CMake Files\3rdparty\qt\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/sk/workspas/AuboDriver/3rdparty/qt/lib/cmake/Qt5Gui/Qt5Gui_QIbusPlatformInputContextPlugin.cmake">
+			<Option virtualFolder="CMake Files\3rdparty\qt\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/sk/workspas/AuboDriver/3rdparty/qt/lib/cmake/Qt5Gui/Qt5Gui_QJp2Plugin.cmake">
+			<Option virtualFolder="CMake Files\3rdparty\qt\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/sk/workspas/AuboDriver/3rdparty/qt/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake">
+			<Option virtualFolder="CMake Files\3rdparty\qt\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/sk/workspas/AuboDriver/3rdparty/qt/lib/cmake/Qt5Gui/Qt5Gui_QLinuxFbIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\3rdparty\qt\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/sk/workspas/AuboDriver/3rdparty/qt/lib/cmake/Qt5Gui/Qt5Gui_QMinimalEglIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\3rdparty\qt\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/sk/workspas/AuboDriver/3rdparty/qt/lib/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\3rdparty\qt\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/sk/workspas/AuboDriver/3rdparty/qt/lib/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\3rdparty\qt\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/sk/workspas/AuboDriver/3rdparty/qt/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake">
+			<Option virtualFolder="CMake Files\3rdparty\qt\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/sk/workspas/AuboDriver/3rdparty/qt/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake">
+			<Option virtualFolder="CMake Files\3rdparty\qt\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/sk/workspas/AuboDriver/3rdparty/qt/lib/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake">
+			<Option virtualFolder="CMake Files\3rdparty\qt\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/sk/workspas/AuboDriver/3rdparty/qt/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake">
+			<Option virtualFolder="CMake Files\3rdparty\qt\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/sk/workspas/AuboDriver/3rdparty/qt/lib/cmake/Qt5Gui/Qt5Gui_QWebpPlugin.cmake">
+			<Option virtualFolder="CMake Files\3rdparty\qt\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/sk/workspas/AuboDriver/3rdparty/qt/lib/cmake/Qt5Gui/Qt5Gui_QXcbEglIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\3rdparty\qt\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/sk/workspas/AuboDriver/3rdparty/qt/lib/cmake/Qt5Gui/Qt5Gui_QXcbGlxIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\3rdparty\qt\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/sk/workspas/AuboDriver/3rdparty/qt/lib/cmake/Qt5Gui/Qt5Gui_QXcbIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\3rdparty\qt\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/sk/workspas/AuboDriver/3rdparty/qt/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
+			<Option virtualFolder="CMake Files\3rdparty\qt\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/sk/workspas/AuboDriver/3rdparty/qt/lib/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\3rdparty\qt\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/sk/workspas/AuboDriver/3rdparty/qt/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\3rdparty\qt\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/sk/workspas/AuboDriver/3rdparty/qt/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake">
+			<Option virtualFolder="CMake Files\3rdparty\qt\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/sk/workspas/AuboDriver/3rdparty/qt/lib/cmake/Qt5OpenGL/Qt5OpenGLConfig.cmake">
+			<Option virtualFolder="CMake Files\3rdparty\qt\lib\cmake\Qt5OpenGL\"/>
+		</Unit>
+		<Unit filename="/home/sk/workspas/AuboDriver/3rdparty/qt/lib/cmake/Qt5OpenGL/Qt5OpenGLConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\3rdparty\qt\lib\cmake\Qt5OpenGL\"/>
+		</Unit>
+		<Unit filename="/home/sk/workspas/AuboDriver/3rdparty/qt/lib/cmake/Qt5Network/Qt5NetworkConfig.cmake">
+			<Option virtualFolder="CMake Files\3rdparty\qt\lib\cmake\Qt5Network\"/>
+		</Unit>
+		<Unit filename="/home/sk/workspas/AuboDriver/3rdparty/qt/lib/cmake/Qt5Network/Qt5NetworkConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\3rdparty\qt\lib\cmake\Qt5Network\"/>
+		</Unit>
+		<Unit filename="/home/sk/workspas/AuboDriver/3rdparty/qt/lib/cmake/Qt5Network/Qt5Network_QConnmanEnginePlugin.cmake">
+			<Option virtualFolder="CMake Files\3rdparty\qt\lib\cmake\Qt5Network\"/>
+		</Unit>
+		<Unit filename="/home/sk/workspas/AuboDriver/3rdparty/qt/lib/cmake/Qt5Network/Qt5Network_QGenericEnginePlugin.cmake">
+			<Option virtualFolder="CMake Files\3rdparty\qt\lib\cmake\Qt5Network\"/>
+		</Unit>
+		<Unit filename="/home/sk/workspas/AuboDriver/3rdparty/qt/lib/cmake/Qt5Network/Qt5Network_QNetworkManagerEnginePlugin.cmake">
+			<Option virtualFolder="CMake Files\3rdparty\qt\lib\cmake\Qt5Network\"/>
+		</Unit>
+		<Unit filename="/home/sk/workspas/AuboDriver/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+		<Unit filename="/home/sk/workspas/AuboDriver/src/utils/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\utils\"/>
+		</Unit>
+		<Unit filename="/home/sk/workspas/AuboDriver/src/01-connect/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\01-connect\"/>
+		</Unit>
+		<Unit filename="/home/sk/workspas/AuboDriver/src/02-movej/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\02-movej\"/>
+		</Unit>
+		<Unit filename="/home/sk/workspas/AuboDriver/src/02-movel/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\02-movel\"/>
+		</Unit>
+		<Unit filename="/home/sk/workspas/AuboDriver/src/03-FKIK/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\03-FKIK\"/>
+		</Unit>
+		<Unit filename="/home/sk/workspas/AuboDriver/src/04-io/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\04-io\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,6 @@
+add_subdirectory(utils)
+add_subdirectory(01-connect)
+add_subdirectory(02-movej)
+add_subdirectory(02-movel)
+add_subdirectory(03-FKIK)
+add_subdirectory(04-io)

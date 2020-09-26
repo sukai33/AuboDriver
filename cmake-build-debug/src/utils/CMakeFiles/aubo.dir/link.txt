@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../../build/lib/libaubo.a  CMakeFiles/aubo.dir/aubo_autogen/mocs_compilation.cpp.o CMakeFiles/aubo.dir/Robot.cpp.o CMakeFiles/aubo.dir/util.cpp.o
+/usr/bin/ranlib ../../../build/lib/libaubo.a
